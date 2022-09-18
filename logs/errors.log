@@ -1,0 +1,13 @@
+{"level":"error","message":"getaddrinfo ENOTFOUND database-host"}
+{"level":"error","message":"getaddrinfo ENOTFOUND database-host"}
+{"level":"error","message":"getaddrinfo ENOTFOUND database-host"}
+{"level":"error","message":"getaddrinfo ENOTFOUND database-host"}
+{"level":"error","message":"getaddrinfo ENOTFOUND database-localhost"}
+{"level":"error","message":"getaddrinfo ENOTFOUND database-localhost"}
+{"level":"error","message":"getaddrinfo ENOTFOUND database-localhost"}
+{"level":"error","message":"getaddrinfo ENOTFOUND database-localhost"}
+{"level":"error","message":"jwt must be a string","name":"JsonWebTokenError"}
+{"level":"error","message":"jwt must be a string","name":"JsonWebTokenError"}
+{"level":"error","message":"jwt must be a string","name":"JsonWebTokenError"}
+{"level":"error","message":"jwt must be a string","name":"JsonWebTokenError"}
+{"level":"error","message":"jwt must be a string","name":"JsonWebTokenError"}

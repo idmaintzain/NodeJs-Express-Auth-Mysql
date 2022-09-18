@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "9cacf68f-4845-44f5-a006-48bf733f0ee0",
+		"name": "NodeJS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "8177037"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstname\": \"idowu\",\n    \"lastname\": \"ade\",\n    \"email\": \"ade@yahoo.com\",\n    \"password\": \"1234qwer\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/auth/signup?firstname=Idowu &lastname=Adeyinka&email=iadeyinka03@gmail.com&password=maintain",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								"signup"
+							],
+							"query": [
+								{
+									"key": "firstname",
+									"value": "Idowu "
+								},
+								{
+									"key": "lastname",
+									"value": "Adeyinka"
+								},
+								{
+									"key": "email",
+									"value": "iadeyinka03@gmail.com"
+								},
+								{
+									"key": "password",
+									"value": "maintain"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Signin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "// {\n//     \"email\": \"ade@yahoo.com\",\n//     \"password\": \"1234qwer\"\n// }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/auth/signin?email=Idowu &password=Adeyinka",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								"signin"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "Idowu "
+								},
+								{
+									"key": "password",
+									"value": "Adeyinka"
+								},
+								{
+									"key": "email",
+									"value": "iadeyinka03@gmail.com",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "maintain",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"ade@yahoo.com\",\n    \"password\": \"1234qwer\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/auth/signin",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								"signin"
+							],
+							"query": [
+								{
+									"key": "firstname",
+									"value": "Idowu ",
+									"disabled": true
+								},
+								{
+									"key": "lastname",
+									"value": "Adeyinka",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "iadeyinka03@gmail.com",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "maintain",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
