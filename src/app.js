@@ -17,7 +17,6 @@ app.use(cors());
 
 app.use('/api/auth', authRoute);
 app.use('/api/module', dashRoute);
-// app.use('/api/dashboard', dash);
 
 app.get('/', (req, res) => {
     res.status(200).send({

@@ -11,14 +11,4 @@ let refreshTokens = [];
       });
 
 
-      //logout
-      router.post('/logout', logout, (req, res) => {
-        const { token } = req.body;
-        console.log(token);
-        refreshTokens = refreshTokens.filter(token => t !== token);
-    
-        res.send("Logout successful");
-    });
-
-
 module.exports = router;
