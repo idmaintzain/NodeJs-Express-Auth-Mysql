@@ -1,0 +1,3 @@
+::ffff:127.0.0.1 - - [19/Sep/2022:08:02:07 +0000] "POST /api/auth/signin?email=Idowu%20&password=Adeyinka HTTP/1.1" 200 238 "-" "PostmanRuntime/7.29.2"
+::ffff:127.0.0.1 - - [19/Sep/2022:08:02:12 +0000] "POST /api/auth/signup?firstname=Idowu%20&lastname=Adeyinka&email=iadeyinka03@gmail.com&password=maintain HTTP/1.1" 400 88 "-" "PostmanRuntime/7.29.2"
+::ffff:127.0.0.1 - - [19/Sep/2022:08:02:48 +0000] "GET /api/module/accessPage HTTP/1.1" 200 37 "-" "PostmanRuntime/7.29.2"

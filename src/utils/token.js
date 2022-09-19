@@ -14,15 +14,12 @@ const decode = (token) => {
 
 const authenticateJWT = (req, res, next) => {
     const authHeader = req.headers.authorization;
-
     if (authHeader) {
         const token = authHeader.split(' ')[1];
-
         jwt.verify(token, JWT_SECRET_KEY, { expiresIn: '1m' }, (err, user) => {
             if (err) {
                 return res.sendStatus(403);
             }
-
             req.user = user;
             next();
         });
@@ -33,9 +30,9 @@ const authenticateJWT = (req, res, next) => {
 
 
 const logout = (req, res, next) => {
-    jwt.destroy(token);
-    req.user = user;
-    next();
+    // jwt.destroy(token);
+    // req.user = user;
+    // next();
 };
 
 
